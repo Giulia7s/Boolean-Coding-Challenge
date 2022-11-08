@@ -1,0 +1,82 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+
+.Container{
+  background-color: rgba(0,0,0,0.8);
+  width: 900px;
+  border-radius: 30px;
+  margin: auto;
+  padding: 30px;
+}
+
+.logo{
+  width: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+header > h1{
+  text-align: center;
+  color: #00FF00;
+}
+
+input[type="button"]:hover{
+  background-color: lightgreen;
+}
+
+nav{
+  background-color: #00FF00;
+  width: 85%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+main{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+main > h2, span{
+  color: white;
+}
+
+main > h2{
+  display: inline-block;
+}
+
+main > span {
+  display: block;
+}
+
+#carica1{
+  background-color: orange;
+  width: 40%;
+}
+
+#carica2{
+  background-color: #00FF00;
+  width: 60%;
+}
+
+#carica3{
+  background-color: #C34632;
+  width: 20%;
+}
+
+#carica1, #carica2, #carica3 {
+ border-radius: 5px;
+ height: 25px;
+}
+
+footer{
+  color: #00FF00;
+  text-align: center;
+  font-size: 20px;
+}
